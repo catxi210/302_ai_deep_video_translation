@@ -1,0 +1,327 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "common": {
+    "disabled": "已禁用",
+    "enabled": "已启用",
+    "hide": "隐藏",
+    "show": "显示"
+  },
+  "form": {
+    "errors": {
+      "invalidVideoUrl": "请输入正确的视频链接",
+      "required": "此字段为必填项"
+    },
+    "fields": {
+      "audio_codec": "音频编码",
+      "ext": "文件格式",
+      "filesize": "文件大小",
+      "format_id": "格式ID",
+      "formats": "视频格式",
+      "formatsAvailable": "个可用格式",
+      "fps": "帧率",
+      "language": {
+        "auto": "自动检测",
+        "en": "英语",
+        "ja": "日语",
+        "zh": "中文"
+      },
+      "resolution": "分辨率",
+      "settings": "设置",
+      "sourceLanguage": {
+        "auto": "自动检测",
+        "label": "源语言",
+        "placeholder": "选择源语言"
+      },
+      "subtitleLayout": {
+        "double": "双语字幕",
+        "label": "字幕布局",
+        "placeholder": "选择字幕布局",
+        "single": "单语字幕（仅译文）"
+      },
+      "subtitleStyle": {
+        "background": "背景设置",
+        "backgroundColor": "背景颜色",
+        "backgroundOpacity": "背景不透明度",
+        "backgroundPadding": "背景内边距",
+        "basic": "基本设置",
+        "bold": "加粗",
+        "bottomMargin": "底部边距",
+        "font": "字体设置",
+        "fontFamily": "选择字体",
+        "fontSize": "字号大小",
+        "label": "字幕样式",
+        "marginV": "垂直边距",
+        "preview": "字幕预览",
+        "primary": "原文文字样式",
+        "secondary": "译文文字样式",
+        "secondaryFontFamily": "副字幕字体",
+        "secondaryFontSize": "副字幕大小",
+        "shadow": "阴影设置",
+        "shadowBlur": "阴影模糊",
+        "shadowColor": "阴影颜色",
+        "shadowOffsetX": "水平偏移",
+        "shadowOffsetY": "垂直偏移",
+        "shadowOpacity": "阴影不透明度",
+        "showBackground": "显示背景",
+        "showShadow": "显示阴影",
+        "showStroke": "显示描边",
+        "strokeColor": "描边颜色",
+        "strokeWidth": "描边宽度",
+        "textColor": "文字颜色"
+      },
+      "targetLanguage": {
+        "label": "目标语言",
+        "placeholder": "选择目标语言"
+      },
+      "translation": {
+        "label": "翻译设置"
+      },
+      "videoUrl": {
+        "label": "视频链接（支持YouTube、B站）",
+        "placeholder": "请输入视频链接"
+      },
+      "video_codec": "视频编码",
+      "voiceSeparation": {
+        "label": "人声分离增强"
+      }
+    },
+    "get_video_info": "获取视频信息"
+  },
+  "global": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "error": {
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "copy_failed": "复制失败",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误，请稍后重试",
+      "video_play_error": "视频播放错误"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    },
+    "video": {
+      "approximateSize": "约 {size}MB",
+      "confirmSelection": "提交任务",
+      "duration": "{minutes}分{seconds}秒",
+      "exactSize": "{size}MB",
+      "formatSelected": "已选择视频格式",
+      "gettingInfo": "正在获取视频信息...",
+      "onlineVideo": "在线视频",
+      "previewAudioNotice": "注意：预览播放可能无声音，但不影响最终结果。请确保原始视频链接中包含音频。",
+      "screenshot": "截图",
+      "settingsUpdated": "设置已更新",
+      "taskCreated": "任务已创建",
+      "taskRemoved": "任务已移除",
+      "unknownSize": "未知大小",
+      "uploadedVideo": "上传的视频"
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI 视频深度翻译"
+    }
+  },
+  "panel": {
+    "taskHistory": {
+      "empty": "暂无任务",
+      "title": "任务历史"
+    }
+  },
+  "task": {
+    "ago": "前",
+    "audio_file": "音频文件",
+    "back": "返回",
+    "cancel": "取消任务",
+    "cancel_success": "任务已取消，但当前执行的步骤仍会完成",
+    "cancel_warning": "取消任务只会停止任务状态的更新，当前正在执行的步骤仍会继续完成并产生相应费用。确定要取消吗？",
+    "clear_filters": "清除筛选",
+    "complete": "任务完成",
+    "complete_desc": "任务 {taskId} 已完成",
+    "confidence": "{score}%",
+    "created_at": "创建时间",
+    "current_step": "当前步骤",
+    "date_from": "开始日期",
+    "date_to": "结束日期",
+    "delete": "删除任务",
+    "delete_success": "任务记录已永久删除，但当前执行的步骤仍会完成",
+    "delete_warning": "删除操作将永久移除本地任务记录且无法恢复。注意：当前正在执行的步骤仍会继续完成并产生相应费用。确定要删除吗？",
+    "download": {
+      "downloading": "正在下载",
+      "failed": "下载失败",
+      "preparing": "准备下载...",
+      "progress_info": "{percentage}% - {speed}/s - 剩余 {timeLeft}",
+      "starting": "开始下载",
+      "success": "下载成功",
+      "time_hours": "{hours} 小时",
+      "time_minutes": "{minutes} 分钟",
+      "time_seconds": "{seconds} 秒",
+      "unknown_error": "未知错误"
+    },
+    "download_ass": "下载 ASS 字幕",
+    "download_srt": "下载 SRT 字幕",
+    "download_subtitles": "下载字幕",
+    "download_video": "下载视频",
+    "download_vtt": "下载 VTT 字幕",
+    "duration": "时长",
+    "error": "错误信息",
+    "failed": "操作失败",
+    "failed_desc": "任务 {taskId} 失败: {error}",
+    "filter": "筛选",
+    "filter_date": "日期筛选",
+    "filter_language": "语言筛选",
+    "filter_status": "状态筛选",
+    "languages": "语言",
+    "loading": "加载中...",
+    "more_subtitles": "还有 {count} 个片段",
+    "more_words": "还有 {count} 个单词",
+    "name": "任务名称",
+    "no_search_results": "未找到匹配的任务",
+    "no_tasks": "暂无任务",
+    "open_menu": "打开菜单",
+    "output_video": "输出视频",
+    "pause": "暂停任务",
+    "progress": "进度",
+    "resume": "恢复任务",
+    "search_placeholder": "搜索任务名称、语言或状态",
+    "segments": "片段",
+    "select_date": "选择日期",
+    "server_task_id": "服务器任务ID",
+    "settings": "设置",
+    "sort": "排序",
+    "source_segments": "原文片段",
+    "source_subtitles": "原文字幕",
+    "status": {
+      "completed": "已完成",
+      "fail": "失败",
+      "failed": "失败",
+      "pending": "等待中",
+      "processing": "处理中",
+      "queue": "排队中",
+      "status": "状态",
+      "success": "成功"
+    },
+    "statusLabel": "状态",
+    "step": {
+      "burn": "烧录字幕",
+      "details": "任务步骤详情",
+      "download": "下载视频",
+      "transcribe": "提取字幕",
+      "translate": "翻译字幕",
+      "video_info": "获取视频信息"
+    },
+    "step_complete": "步骤完成",
+    "step_complete_desc": "任务 {taskId} 的 {step} 操作已完成",
+    "step_failed": "步骤失败",
+    "step_failed_desc": "任务 {taskId} 的 {step} 操作失败: {error}",
+    "subtitle_preview": "字幕预览",
+    "subtitles": "字幕数量",
+    "task_id": "任务ID",
+    "thumbnail": "缩略图",
+    "time_range": "{start} → {end}",
+    "translated_segments": "译文片段",
+    "translated_subtitles": "译文字幕",
+    "unnamed_task": "未命名任务",
+    "updated_at": "更新时间",
+    "video_file": "视频文件",
+    "video_info": "视频信息",
+    "video_preview": "视频预览",
+    "video_thumbnail": "视频缩略图",
+    "view_details": "查看详情",
+    "view_video": "查看视频",
+    "word_segments": "单词分段",
+    "word_segments_preview": "单词分段预览",
+    "words": "单词"
+  },
+  "uploader": {
+    "aria": {
+      "dropzone": "拖放区域",
+      "region": "视频上传区域"
+    },
+    "button": {
+      "browse": "浏览视频文件",
+      "cancel": "取消",
+      "cancel_upload": "取消上传",
+      "confirm_upload": "确认上传",
+      "retry": "选择其他文件",
+      "upload": "开始上传",
+      "upload_more": "继续上传",
+      "uploading": "正在上传..."
+    },
+    "create_online_task": "创建在线视频任务",
+    "error": {
+      "duration_too_long": "视频时长太长",
+      "duration_too_short": "视频时长太短",
+      "file_invalid": "文件无效",
+      "invalid_dimensions": "视频尺寸不支持",
+      "invalid_type": "请上传有效的视频文件 (MP4, MOV, AVI, WEBM)",
+      "max_files_exceeded": "超出最大文件数",
+      "max_files_exceeded_description": "最多只能上传 {maxFiles} 个文件",
+      "size_exceeded": "文件大小不能超过1GB",
+      "upload_failed": "上传失败，请重试",
+      "validation_failed": "视频验证失败"
+    },
+    "info": {
+      "drag_drop": "点击或拖放视频到此处",
+      "formats": "支持的格式: MP4、WEBM",
+      "max_files": "最大文件数：{maxFiles}",
+      "or": "或",
+      "size_limit": "视频大小限制：{maxSize}",
+      "tooltip": {
+        "formats": "支持上传MP4、AVI、MOV、WEBM格式的视频文件",
+        "size": "最大文件大小：{maxSize}"
+      },
+      "total_progress": "总进度",
+      "upload_cancelled": "上传已取消",
+      "upload_cancelled_description": "视频上传已被取消"
+    },
+    "preview": {
+      "file_info": "文件信息",
+      "file_number": "文件 {number}",
+      "loading": "视频加载中...",
+      "pause": "暂停视频",
+      "play": "播放视频",
+      "ready_to_upload": "准备上传",
+      "remove_video": "移除视频",
+      "video_preview": "视频预览"
+    },
+    "success": {
+      "description": "所有视频已成功上传",
+      "title": "上传成功",
+      "total_files": "文件总数",
+      "total_size": "总大小",
+      "view_files": "查看文件"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.art-video-player {
+  --art-theme: var(--primary);
+  --art-theme-alpha: color-mix(in srgb, var(--primary) 20%, transparent);
+  --art-loaded: var(--primary);
+  --art-hover: var(--primary);
+}

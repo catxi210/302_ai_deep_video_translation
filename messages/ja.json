@@ -1,0 +1,327 @@
+{
+  "auth": {
+    "description": "作成者は認証を有効にしています。以下の共有コードを入力してください",
+    "form": {
+      "confirm_button": "確認",
+      "confirm_button_loading": "検証中",
+      "input_code": "共有コードを入力してください",
+      "remember_code": "共有コードを記憶する"
+    },
+    "title": "共有コードが必要です"
+  },
+  "common": {
+    "disabled": "無効",
+    "enabled": "有効",
+    "hide": "非表示",
+    "show": "表示"
+  },
+  "form": {
+    "errors": {
+      "invalidVideoUrl": "有効な動画URLを入力してください",
+      "required": "この項目は必須です"
+    },
+    "fields": {
+      "audio_codec": "音声コーデック",
+      "ext": "ファイル形式",
+      "filesize": "ファイルサイズ",
+      "format_id": "フォーマットID",
+      "formats": "動画フォーマット",
+      "formatsAvailable": "利用可能なフォーマット",
+      "fps": "フレームレート",
+      "language": {
+        "auto": "自動検出",
+        "en": "英語",
+        "ja": "日本語",
+        "zh": "中国語"
+      },
+      "resolution": "解像度",
+      "settings": "設定",
+      "sourceLanguage": {
+        "auto": "自動検出",
+        "label": "原語",
+        "placeholder": "原語を選択"
+      },
+      "subtitleLayout": {
+        "double": "二か国語字幕",
+        "label": "字幕レイアウト",
+        "placeholder": "字幕レイアウトを選択",
+        "single": "単言語字幕（翻訳のみ）"
+      },
+      "subtitleStyle": {
+        "background": "背景設定",
+        "backgroundColor": "背景色",
+        "backgroundOpacity": "背景の不透明度",
+        "backgroundPadding": "背景のパディング",
+        "basic": "基本設定",
+        "bold": "太字",
+        "bottomMargin": "下部マージン",
+        "font": "フォント設定",
+        "fontFamily": "フォントを選択",
+        "fontSize": "フォントサイズ",
+        "label": "字幕スタイル",
+        "marginV": "垂直マージン",
+        "preview": "字幕プレビュー",
+        "primary": "元のテキストスタイル",
+        "secondary": "翻訳テキストのスタイル",
+        "secondaryFontFamily": "サブ字幕フォント",
+        "secondaryFontSize": "サブ字幕サイズ",
+        "shadow": "影の設定",
+        "shadowBlur": "影のぼかし",
+        "shadowColor": "影の色",
+        "shadowOffsetX": "水平オフセット",
+        "shadowOffsetY": "垂直オフセット",
+        "shadowOpacity": "影の不透明度",
+        "showBackground": "背景を表示",
+        "showShadow": "影を表示",
+        "showStroke": "縁取りを表示",
+        "strokeColor": "輪郭線の色",
+        "strokeWidth": "輪郭線の幅",
+        "textColor": "テキスト色"
+      },
+      "targetLanguage": {
+        "label": "目標言語",
+        "placeholder": "目標言語を選択"
+      },
+      "translation": {
+        "label": "翻訳設定"
+      },
+      "videoUrl": {
+        "label": "動画リンク（YouTube、Bilibili対応）",
+        "placeholder": "動画URLを入力してください"
+      },
+      "video_codec": "映像コーデック",
+      "voiceSeparation": {
+        "label": "音声分離強化"
+      }
+    },
+    "get_video_info": "動画情報を取得"
+  },
+  "global": {
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "error": {
+      "code_invalid": "共有コードが無効です。詳細は302.AIをご覧ください",
+      "copy_failed": "コピーに失敗しました",
+      "network_error": "ネットワークサービスエラー。ネットワーク状態を確認するか、後でもう一度お試しください！",
+      "not_found": "ページが見つかりません",
+      "tool_deleted": "このツールは削除されました。詳細は<site>302.AI</site>をご覧ください",
+      "tool_disabled": "このツールは無効になっています。詳細は<site>302.AI</site>をご覧ください",
+      "unknown_error": "不明なエラーが発生しました。後でもう一度お試しください",
+      "video_play_error": "動画再生エラー"
+    },
+    "footer": {
+      "copyright_content": "<logo></logo>による提供",
+      "copyright_leading": "AI生成のコンテンツであり、参考用です"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "言語を切り替える"
+      },
+      "theme_switcher": {
+        "dark": "ダークモード",
+        "light": "ライトモード",
+        "system": "システムに従う",
+        "toggle_theme": "テーマを切り替える"
+      },
+      "tool_info": {
+        "description": "現在のツールに関する情報",
+        "title": "について",
+        "trigger": {
+          "label": "ツール情報ポップアップを開く/閉じる"
+        }
+      }
+    },
+    "video": {
+      "approximateSize": "約 {size}MB",
+      "confirmSelection": "タスクを提出",
+      "duration": "{minutes}分{seconds}秒",
+      "exactSize": "{size}MB",
+      "formatSelected": "動画フォーマットが選択されました",
+      "gettingInfo": "動画情報を取得中...",
+      "onlineVideo": "オンライン動画",
+      "previewAudioNotice": "注意：プレビュー再生は無音の場合がありますが、最終結果には影響ありません。元の動画リンクに音声が含まれていることを確認してください。",
+      "screenshot": "スクリーンショット",
+      "settingsUpdated": "設定が更新されました",
+      "taskCreated": "タスクが作成されました",
+      "taskRemoved": "タスクが削除されました",
+      "unknownSize": "不明なサイズ",
+      "uploadedVideo": "アップロードされた動画"
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI ディープビデオ翻訳"
+    }
+  },
+  "panel": {
+    "taskHistory": {
+      "empty": "タスクがありません",
+      "title": "タスク履歴"
+    }
+  },
+  "task": {
+    "ago": "前",
+    "audio_file": "音声ファイル",
+    "back": "戻る",
+    "cancel": "タスクをキャンセル",
+    "cancel_success": "タスクはキャンセルされましたが、現在のステップは完了まで継続されます",
+    "cancel_warning": "タスクをキャンセルすると、ステータスの更新のみが停止されます。現在実行中のステップは継続され、対応する料金が発生します。キャンセルしてもよろしいですか？",
+    "clear_filters": "フィルターをクリア",
+    "complete": "タスク完了",
+    "complete_desc": "タスク {taskId} が完了しました",
+    "confidence": "{score}%",
+    "created_at": "作成日時",
+    "current_step": "現在のステップ",
+    "date_from": "開始日",
+    "date_to": "終了日",
+    "delete": "タスクを削除",
+    "delete_success": "タスク記録は永久に削除されましたが、現在のステップは完了まで継続されます",
+    "delete_warning": "この削除操作により、ローカルのタスク記録は永久に削除され、元に戻すことはできません。注意：現在実行中のステップは継続され、対応する料金が発生します。削除してもよろしいですか？",
+    "download": {
+      "downloading": "ダウンロード中",
+      "failed": "ダウンロード失敗",
+      "preparing": "ダウンロードを準備中...",
+      "progress_info": "{percentage}% - {speed}/秒 - 残り{timeLeft}",
+      "starting": "ダウンロードを開始",
+      "success": "ダウンロード完了",
+      "time_hours": "{hours}時間",
+      "time_minutes": "{minutes}分",
+      "time_seconds": "{seconds}秒",
+      "unknown_error": "不明なエラー"
+    },
+    "download_ass": "ASS字幕をダウンロード",
+    "download_srt": "SRT字幕をダウンロード",
+    "download_subtitles": "字幕をダウンロードする",
+    "download_video": "ビデオをダウンロードする",
+    "download_vtt": "VTT字幕をダウンロード",
+    "duration": "長さ",
+    "error": "エラーメッセージ",
+    "failed": "操作失敗",
+    "failed_desc": "タスク {taskId} が失敗しました: {error}",
+    "filter": "フィルター",
+    "filter_date": "日付でフィルター",
+    "filter_language": "言語でフィルター",
+    "filter_status": "状態でフィルター",
+    "languages": "言語",
+    "loading": "読み込み中...",
+    "more_subtitles": "残り{count}セグメント",
+    "more_words": "残り{count}単語",
+    "name": "タスク名",
+    "no_search_results": "一致するタスクが見つかりません",
+    "no_tasks": "タスクがありません",
+    "open_menu": "メニューを開く",
+    "output_video": "出力動画",
+    "pause": "タスクを一時停止",
+    "progress": "進捗",
+    "resume": "タスクを再開",
+    "search_placeholder": "タスク名、言語、状態で検索",
+    "segments": "件",
+    "select_date": "日付を選択",
+    "server_task_id": "サーバータスクID",
+    "settings": "設定",
+    "sort": "並び替え",
+    "source_segments": "原文セグメント",
+    "source_subtitles": "原文字幕",
+    "status": {
+      "completed": "完了",
+      "fail": "失敗",
+      "failed": "失敗",
+      "pending": "保留中",
+      "processing": "処理中",
+      "queue": "待機中",
+      "status": "状態",
+      "success": "成功"
+    },
+    "statusLabel": "状態",
+    "step": {
+      "burn": "字幕焼き込み",
+      "details": "タスクステップ詳細",
+      "download": "動画ダウンロード",
+      "transcribe": "字幕抽出",
+      "translate": "字幕翻訳",
+      "video_info": "動画情報取得"
+    },
+    "step_complete": "ステップ完了",
+    "step_complete_desc": "タスク {taskId} の {step} 操作が完了しました",
+    "step_failed": "ステップ失敗",
+    "step_failed_desc": "タスク {taskId} の {step} 操作が失敗しました: {error}",
+    "subtitle_preview": "字幕プレビュー",
+    "subtitles": "字幕数",
+    "task_id": "タスクID",
+    "thumbnail": "サムネイル",
+    "time_range": "{start} → {end}",
+    "translated_segments": "翻訳済みセグメント",
+    "translated_subtitles": "訳文字幕",
+    "unnamed_task": "名称未設定のタスク",
+    "updated_at": "更新日時",
+    "video_file": "動画ファイル",
+    "video_info": "ビデオ情報",
+    "video_preview": "ビデオプレビュー",
+    "video_thumbnail": "ビデオのサムネイル",
+    "view_details": "詳細を表示",
+    "view_video": "動画を見る",
+    "word_segments": "単語レベルの字幕",
+    "word_segments_preview": "単語セグメントプレビュー",
+    "words": "語"
+  },
+  "uploader": {
+    "aria": {
+      "dropzone": "ドロップゾーン",
+      "region": "ビデオアップロードエリア"
+    },
+    "button": {
+      "browse": "ビデオファイルを参照",
+      "cancel": "キャンセル",
+      "cancel_upload": "アップロードをキャンセル",
+      "confirm_upload": "アップロードを確認",
+      "retry": "別のファイルを選択",
+      "upload": "アップロードを開始",
+      "upload_more": "続けてアップロード",
+      "uploading": "アップロード中..."
+    },
+    "create_online_task": "オンラインビデオタスクを作成",
+    "error": {
+      "duration_too_long": "ビデオの長さが長すぎます",
+      "duration_too_short": "ビデオの長さが短すぎます",
+      "file_invalid": "無効なファイル",
+      "invalid_dimensions": "ビデオの解像度がサポートされていません",
+      "invalid_type": "有効なビデオファイル（MP4、MOV、AVI、WEBM）をアップロードしてください",
+      "max_files_exceeded": "最大ファイル数を超えました",
+      "max_files_exceeded_description": "最大 {maxFiles} 個のファイルまでアップロードできます",
+      "size_exceeded": "ファイルサイズは1GBを超えることはできません",
+      "upload_failed": "アップロードに失敗しました。もう一度お試しください",
+      "validation_failed": "ビデオの検証に失敗しました"
+    },
+    "info": {
+      "drag_drop": "クリックまたはここにビデオをドラッグ",
+      "formats": "対応フォーマット：MP4、AVI、MOV、WEBM",
+      "max_files": "最大ファイル数：{maxFiles}",
+      "or": "または",
+      "size_limit": "ファイルサイズ制限：{maxSize}",
+      "tooltip": {
+        "formats": "MP4、AVI、MOV、WEBMビデオファイルのアップロードに対応",
+        "size": "最大ファイルサイズ：{maxSize}"
+      },
+      "total_progress": "合計進捗",
+      "upload_cancelled": "アップロードがキャンセルされました",
+      "upload_cancelled_description": "ビデオのアップロードがキャンセルされました"
+    },
+    "preview": {
+      "file_info": "ファイル情報",
+      "file_number": "ファイル {number}",
+      "loading": "ビデオ読み込み中...",
+      "pause": "ビデオを一時停止",
+      "play": "ビデオを再生",
+      "ready_to_upload": "アップロード準備完了",
+      "remove_video": "ビデオを削除",
+      "video_preview": "ビデオプレビュー"
+    },
+    "success": {
+      "description": "すべてのビデオが正常にアップロードされました",
+      "title": "アップロード成功",
+      "total_files": "合計ファイル数",
+      "total_size": "合計サイズ",
+      "view_files": "ファイルを表示"
+    }
+  }
+}
