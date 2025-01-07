@@ -22,8 +22,8 @@
 ![](docs/302_AI_Deep_Video_Translation_screenshot_02.png)
 
 灵活的字幕样式设置，可以自定义字体、颜色、大小等。
+<p align="center"><img src="docs/302_AI_Deep_Video_Translation_screenshot_03.png" /></p>
 
-![](docs/302_AI_Deep_Video_Translation_screenshot_03.png)
 
 ## 项目特性
 ### 🎯 多源视频支持
