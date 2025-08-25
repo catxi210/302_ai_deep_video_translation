@@ -2,13 +2,13 @@
 
 <p align="center">AI视频深度翻译是一款功能强大的工具，专注于视频内容的全自动本地化处理，它能够自动下载和处理多源视频内容，通过先进的AI模型实现精准的语音识别和转录，支持多语言高质量翻译以确保语义准确传达，提供字幕样式定制功能，并实现字幕的智能烧录。</p>
 
-<p align="center"><a href="https://302.ai/tools/dubbing/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
+<p align="center"><a href="https://302.ai/product/detail/51" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![](docs/302_AI_Deep_Video_Translation.png)
 
-来自[302.AI](https://302.ai)的[AI深度视频翻译工具](https://302.ai/tools/dubbing/)的开源版本。
+来自[302.AI](https://302.ai)的[AI深度视频翻译工具](https://302.ai/product/detail/51)的开源版本。
 你可以直接登录302.AI，零代码零配置使用在线版本。
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
